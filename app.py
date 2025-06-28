@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import cv2
 from PIL import Image
 import mediapipe as mp
 import os
