@@ -153,8 +153,8 @@ def apply_hair_overlay(hair_overlay_path,capturephoto_path):
 st.set_page_config(page_title="Auto-align Hair & Beard", layout="centered")
 st.title("🧔‍♂️ Auto-align Hair & Beard with MediaPipe")
 
-HAIR_STYLE_DIR = "hair"
-BEARD_STYLE_DIR = "beard"
+HAIR_STYLE_DIR = "./static/"
+BEARD_STYLE_DIR = "./static/"
 
 # Load all hairstyle and beard images
 hair_styles = [f for f in os.listdir(HAIR_STYLE_DIR) if f.endswith(('.png', '.jpg', '.jpeg'))]
